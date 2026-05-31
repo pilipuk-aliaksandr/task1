@@ -23,40 +23,56 @@ class DoubleArraySorterImplTest {
     @Test
     @DisplayName("Selection sorting the basic custom array")
     void selectionSortBasic() {
+        //given
         var expectedArray = new CustomDoubleArray(new double[] {-4.0, 1.0, 2.0, 3.0});
 
+        // when
         sorter.selectionSort(baseArray);
         var actualArray = baseArray;
+
+        //then
         assertEquals(expectedArray, actualArray);
     }
 
     @Test
     @DisplayName("Selection sorting the empty custom array")
     void selectionSortEmpty() {
+        //given
         var expectedArray = new CustomDoubleArray(new double[0]);
 
+        // when
         sorter.selectionSort(emptyArray);
         var actualArray = emptyArray;
+
+        //then
         assertEquals(expectedArray, actualArray);
     }
 
     @Test
     @DisplayName("Quick sort the basic custom array")
     void quickSortBasic() {
+        //given
         var expectedArray = new CustomDoubleArray(new double[] {-4, 1, 2, 3});
 
+        // when
         sorter.quickSort(baseArray);
         var actualArray = baseArray;
+
+        //then
         assertEquals(expectedArray, actualArray);
     }
 
     @Test
     @DisplayName("Quick sort the empty custom array")
     void quickSortEmpty() {
+        //given
         var expectedArray = new CustomDoubleArray(new double[0]);
 
+        // when
         sorter.quickSort(emptyArray);
         var actualArray = emptyArray;
+
+        //then
         assertEquals(expectedArray, actualArray);
     }
 }

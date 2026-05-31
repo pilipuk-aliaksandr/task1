@@ -1,50 +1,44 @@
-21:32:24.438 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The max value from array CustomArray{arr=[1.0, 2.0, 3.0, -4.0]} is 3.0!
-21:32:24.463 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The max value from array CustomArray{arr=[]} didn't find, because this custom array is empty!
-21:32:24.467 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The sum of elements from array CustomArray{arr=[1.0, 2.0, 3.0, -4.0]} is 2.0!
-21:32:24.468 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The sum of elements from array CustomArray{arr=[]} didn't find, because this custom array is empty!
-21:32:24.471 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The average value of elements from array CustomArray{arr=[1.0, 2.0, 3.0, -4.0]} is 0.5!
-21:32:24.474 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The average value of elements from array CustomArray{arr=[]} didn't find, because this custom array is empty!
-21:32:24.476 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The min value from array CustomArray{arr=[1.0, 2.0, 3.0, -4.0]} is -4.0!
-21:32:24.478 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The min value from array CustomArray{arr=[]} didn't find, because this custom array is empty!
-21:32:24.487 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The max value from array CustomArray{arr=[1, 2, 3, -4]} is 3!
-21:32:24.489 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The max value from array CustomArray{arr=[]} didn't find, because this custom array is empty!
-21:32:24.491 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The sum of elements from array CustomArray{arr=[1, 2, 3, -4]} is 2!
-21:32:24.494 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The sum of elements from array CustomArray{arr=[]} didn't find, because this custom array is empty!
-21:32:24.498 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The average value of elements from array CustomArray{arr=[1, 2, 3, -4]} is 0.5!
-21:32:24.500 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The average value of elements from array CustomArray{arr=[]} didn't find, because this custom array is empty!
-21:32:24.503 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The min value from array CustomArray{arr=[1, 2, 3, -4]} is -4!
-21:32:24.508 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The min value from array CustomArray{arr=[]} didn't find, because this custom array is empty!
-21:32:24.520 [main] DEBUG by.pilipuk.inno.service.sorter.impl.DoubleArraySorterImpl - Custom array was sorted with quick sort!
-21:32:24.522 [main] DEBUG by.pilipuk.inno.service.sorter.impl.DoubleArraySorterImpl - Custom array was sorted with quick sort!
-21:32:24.526 [main] DEBUG by.pilipuk.inno.service.sorter.impl.DoubleArraySorterImpl - Custom array was sorted with selection sort!
-21:32:24.529 [main] DEBUG by.pilipuk.inno.service.sorter.impl.DoubleArraySorterImpl - Custom array was sorted with selection sort!
-21:32:24.536 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with quick sort!
-21:32:24.539 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with quick sort!
-21:32:24.541 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with selection sort!
-21:32:24.543 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with selection sort!
-22:41:00.710 [main] DEBUG by.pilipuk.inno.reader.impl.ArrayReaderImpl - Reading file: file/input.txt
-22:41:00.715 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1, 2, 3, -4 is valid to be converted to CustomArray
-22:41:00.715 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line  ISN'T VALID to be converted to CustomArray
-22:41:00.715 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1; 2; 3; -4; is valid to be converted to CustomArray
-22:41:00.716 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1 - 2 - 3 - -4 is valid to be converted to CustomArray
-22:41:00.716 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1 2 3 -4a ISN'T VALID to be converted to CustomArray
-22:41:00.716 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line a a a a ISN'T VALID to be converted to CustomArray
-22:42:23.713 [main] DEBUG by.pilipuk.inno.reader.impl.ArrayReaderImpl - Reading file: file/input.txt
-22:42:23.716 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1, 2, 3, -4 is valid to be converted to CustomArray
-22:42:23.717 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line  ISN'T VALID to be converted to CustomArray
-22:42:23.717 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1; 2; 3; -4; is valid to be converted to CustomArray
-22:42:23.717 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1 - 2 - 3 - -4 is valid to be converted to CustomArray
-22:42:23.717 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1 2 3 -4a ISN'T VALID to be converted to CustomArray
-22:42:23.718 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line a a a a ISN'T VALID to be converted to CustomArray
-22:42:23.718 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1.0 2.0 3.0 4.00 is valid to be converted to CustomArray
-22:46:42.413 [main] DEBUG by.pilipuk.inno.reader.impl.ArrayReaderImpl - Reading file: file/input.txt
-22:46:42.418 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1, 2, 3, -4 is valid to be converted to CustomArray
-22:46:42.419 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line  is valid to be converted to CustomArray
-22:47:18.746 [main] DEBUG by.pilipuk.inno.reader.impl.ArrayReaderImpl - Reading file: file/input.txt
-22:47:18.750 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1, 2, 3, -4 is valid to be converted to CustomArray
-22:47:18.751 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line  is valid to be converted to CustomArray
-22:47:18.751 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1; 2; 3; -4; is valid to be converted to CustomArray
-22:47:18.751 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1 - 2 - 3 - -4 is valid to be converted to CustomArray
-22:47:18.751 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1 2 3 -4a ISN'T VALID to be converted to CustomArray
-22:47:18.752 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line a a a a ISN'T VALID to be converted to CustomArray
-22:47:18.752 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1.0 2.0 3.0 4.00 is valid to be converted to CustomArray
+00:03:04.985 [main] DEBUG by.pilipuk.inno.service.sorter.impl.DoubleArraySorterImpl - Custom array was sorted with selection sort!
+00:03:04.996 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with quick sort!
+00:03:04.999 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with quick sort!
+00:03:05.001 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with selection sort!
+00:03:05.004 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with selection sort!
+00:03:37.235 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The max value from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} is 3.0!
+00:03:37.271 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The max value from array CustomDoubleArray{arr=[]} didn't find, because this custom array is empty!
+00:03:37.275 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The sum of elements from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} is 2.0!
+00:03:37.278 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The sum of elements from array CustomDoubleArray{arr=[]} didn't find, because this custom array is empty!
+00:03:37.281 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The average value of elements from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} is 0.5!
+00:03:37.285 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The average value of elements from array CustomDoubleArray{arr=[]} didn't find, because this custom array is empty!
+00:03:37.288 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The min value from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} didn't find, because this custom array is empty!
+00:05:42.811 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1, 2, -3 is valid to be converted to CustomArray
+00:05:42.835 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1.0, 2.0, -3.0 is valid to be converted to CustomArray
+00:05:42.839 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1y1 2 3 ISN'T VALID to be converted to CustomArray
+00:05:42.841 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1 - 2 - -3 is valid to be converted to CustomArray
+00:05:42.844 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1, 2, -3 is valid to be converted to CustomArray
+00:05:42.847 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1; 2; -3 is valid to be converted to CustomArray
+00:05:42.859 [main] DEBUG by.pilipuk.inno.reader.impl.ArrayReaderImpl - Reading file: file/input.txt
+00:05:42.863 [main] DEBUG by.pilipuk.inno.reader.impl.ArrayReaderImpl - Reading file: file/test_input.txt
+00:05:42.870 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The max value from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} is 3.0!
+00:05:42.873 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The max value from array CustomDoubleArray{arr=[]} didn't find, because this custom array is empty!
+00:05:42.875 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The sum of elements from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} is 2.0!
+00:05:42.878 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The sum of elements from array CustomDoubleArray{arr=[]} didn't find, because this custom array is empty!
+00:05:42.881 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The average value of elements from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} is 0.5!
+00:05:42.884 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The average value of elements from array CustomDoubleArray{arr=[]} didn't find, because this custom array is empty!
+00:05:42.888 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The min value from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} is -4.0!
+00:05:42.891 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The min value from array CustomDoubleArray{arr=[]} didn't find, because this custom array is empty!
+00:05:42.899 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The max value from array CustomIntArray{arr=[1, 2, 3, -4]} is 3!
+00:05:42.902 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The max value from array CustomIntArray{arr=[]} didn't find, because this custom array is empty!
+00:05:42.905 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The sum of elements from array CustomIntArray{arr=[1, 2, 3, -4]} is 2!
+00:05:42.907 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The sum of elements from array CustomIntArray{arr=[]} didn't find, because this custom array is empty!
+00:05:42.909 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The average value of elements from array CustomIntArray{arr=[1, 2, 3, -4]} is 0.5!
+00:05:42.912 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The average value of elements from array CustomIntArray{arr=[]} didn't find, because this custom array is empty!
+00:05:42.915 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The min value from array CustomIntArray{arr=[1, 2, 3, -4]} is -4!
+00:05:42.917 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The min value from array CustomIntArray{arr=[]} didn't find, because this custom array is empty!
+00:05:42.934 [main] DEBUG by.pilipuk.inno.service.sorter.impl.DoubleArraySorterImpl - Custom array was sorted with quick sort!
+00:05:42.935 [main] DEBUG by.pilipuk.inno.service.sorter.impl.DoubleArraySorterImpl - Custom array was sorted with quick sort!
+00:05:42.937 [main] DEBUG by.pilipuk.inno.service.sorter.impl.DoubleArraySorterImpl - Custom array was sorted with selection sort!
+00:05:42.939 [main] DEBUG by.pilipuk.inno.service.sorter.impl.DoubleArraySorterImpl - Custom array was sorted with selection sort!
+00:05:42.943 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with quick sort!
+00:05:42.944 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with quick sort!
+00:05:42.945 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with selection sort!
+00:05:42.947 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with selection sort!

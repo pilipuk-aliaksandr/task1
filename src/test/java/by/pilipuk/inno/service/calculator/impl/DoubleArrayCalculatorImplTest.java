@@ -17,32 +17,52 @@ class DoubleArrayCalculatorImplTest {
     @Test
     @DisplayName("Find minimum value from basic custom array")
     void findMinValueBasic() {
+        // given
         var expectedMinValue = Optional.of(-4.0);
+
+        // when
         var actualMinValue = calculator.findMinValue(baseArray);
+
+        //then
         assertEquals(expectedMinValue, actualMinValue);
     }
 
     @Test
     @DisplayName("Find minimum value from empty custom array")
     void findMinValueEmpty() {
+        // given
         var expectedMinValue = Optional.empty();
+
+        // when
         var actualMinValue = calculator.findMinValue(emptyArray);
+
+        //then
         assertEquals(expectedMinValue, actualMinValue);
     }
 
     @Test
     @DisplayName("Find maximum value from basic custom array")
     void findMaxValueBasic() {
+        // given
         var expectedMaxValue = Optional.of(3.0);
+
+        // when
         var actualMaxValue = calculator.findMaxValue(baseArray);
+
+        //then
         assertEquals(expectedMaxValue, actualMaxValue);
     }
 
     @Test
     @DisplayName("Find maximum value from empty custom array")
     void findMaxValueEmpty() {
+        // given
         var expectedMaxValue = Optional.empty();
+
+        // when
         var actualMaxValue = calculator.findMaxValue(emptyArray);
+
+        //then
         assertEquals(expectedMaxValue, actualMaxValue);
 
     }
@@ -50,8 +70,13 @@ class DoubleArrayCalculatorImplTest {
     @Test
     @DisplayName("Find sum of all elements from basic custom array")
     void calculateSumOfElementsBasic() {
+        // given
         var expectedSumValue = Optional.of(2.0);
+
+        // when
         var actualSumValue = calculator.calculateSumOfElements(baseArray);
+
+        //then
         assertEquals(expectedSumValue, actualSumValue);
 
     }
@@ -59,24 +84,39 @@ class DoubleArrayCalculatorImplTest {
     @Test
     @DisplayName("Find sum of all elements from empty custom array")
     void calculateSumOfElementsEmpty() {
+        // given
         var expectedSumValue = Optional.empty();
+
+        // when
         var actualSumValue = calculator.calculateSumOfElements(emptyArray);
+
+        //then
         assertEquals(expectedSumValue, actualSumValue);
     }
 
     @Test
     @DisplayName("Find average value of all elements from basic custom array")
     void calculateAverageOfElementsBasic() {
+        // given
         var expectedAvgValue = Optional.of(0.5);
+
+        // when
         var actualAvgValue = calculator.calculateAverageOfElements(baseArray);
+
+        //then
         assertEquals(expectedAvgValue, actualAvgValue);
     }
 
     @Test
     @DisplayName("Find average value of all elements from empty custom array")
     void calculateAverageOfElementsEmpty() {
+        // given
         var expectedAvgValue = Optional.empty();
+
+        // when
         var actualAvgValue = calculator.calculateAverageOfElements(emptyArray);
+
+        //then
         assertEquals(expectedAvgValue, actualAvgValue);
     }
 }

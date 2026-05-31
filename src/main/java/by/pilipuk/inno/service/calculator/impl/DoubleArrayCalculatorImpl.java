@@ -13,7 +13,7 @@ public class DoubleArrayCalculatorImpl implements CustomDoubleArrayCalculator {
 
     @Override
     public Optional<Double> findMinValue(CustomDoubleArray array) {
-        if (!array.isEmpty()) {
+        if (array.isEmpty()) {
             logger.log(Level.DEBUG, "The min value from array {} didn't find, because this custom array is empty!", array);
             return Optional.empty();
         }

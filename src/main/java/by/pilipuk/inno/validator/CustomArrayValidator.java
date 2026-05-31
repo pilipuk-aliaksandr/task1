@@ -16,10 +16,10 @@ public class CustomArrayValidator {
 
     public static boolean isDouble(String[] elements) {
         for (String element : elements) {
-            if (!element.matches(REGEXP_IS_DOUBLE)) {
-                return false;
+            if (element.matches(REGEXP_IS_DOUBLE)) {
+                return true;
             }
         }
-        return true;
+        return false;
     }
 }

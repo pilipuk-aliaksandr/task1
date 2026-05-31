@@ -35,9 +35,7 @@ public class CustomDoubleArray extends BaseCustomArray {
 
     @Override
     public boolean equals(Object o) {
-        if (o == null || getClass() != o.getClass()) {
-            return false;
-        }
+        if (o == null || getClass() != o.getClass()) return false;
 
         CustomDoubleArray that = (CustomDoubleArray) o;
         return Arrays.equals(arr, that.arr);
@@ -50,6 +48,9 @@ public class CustomDoubleArray extends BaseCustomArray {
 
     @Override
     public String toString() {
-        return "CustomDoubleArray{arr=" + Arrays.toString(arr) + "}";
+        final StringBuilder sb = new StringBuilder("CustomDoubleArray{");
+        sb.append("arr=").append(Arrays.toString(arr));
+        sb.append('}');
+        return sb.toString();
     }
 }
