@@ -26,8 +26,8 @@ class CustomArraySorterImplTest {
         resetId();
         emptyArray = new CustomArray(new int[0]);
         resetId();
-        baseArray.attachObserver(observer);
-        emptyArray.attachObserver(observer);
+        baseArray.attach(observer);
+        emptyArray.attach(observer);
     }
 
     @Test

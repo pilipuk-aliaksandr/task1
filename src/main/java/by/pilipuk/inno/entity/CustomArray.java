@@ -2,14 +2,14 @@ package by.pilipuk.inno.entity;
 
 import by.pilipuk.inno.exception.CustomArrayException;
 import by.pilipuk.inno.observer.CustomArrayObserver;
-import by.pilipuk.inno.observer.Observable;
+import by.pilipuk.inno.observer.Subject;
 import by.pilipuk.inno.util.IdGenerator;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.util.Arrays;
 
-public class CustomArray implements Observable {
+public class CustomArray implements Subject {
     private static final Logger logger = LogManager.getLogger();
     private final Long id;
     private int[] array;
@@ -43,11 +43,18 @@ public class CustomArray implements Observable {
     }
 
     @Override
-    public void attachObserver(CustomArrayObserver customArrayObserver) throws CustomArrayException {
+    public void attach(CustomArrayObserver customArrayObserver) throws CustomArrayException {
         if (customArrayObserver == null) {
             throw new CustomArrayException("Observer cannot be null");
         }
         observer = customArrayObserver;
+    }
+
+    @Override
+    public void detach(CustomArrayObserver customArrayObserver) {
+        if (observer == customArrayObserver) {
+            observer = null;
+        }
     }
 
     @Override

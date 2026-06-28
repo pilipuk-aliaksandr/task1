@@ -25,14 +25,14 @@ public class CustomArrayRepository {
 
     public void add(CustomArray customArray) throws CustomArrayException {
         customArrays.add(customArray);
-        customArray.attachObserver(new CustomArrayObserverImpl());
+        customArray.attach(new CustomArrayObserverImpl());
         customArray.notifyObserver();
         logger.log(Level.INFO, "The array with id={} was added to repository", customArray.getId());
     }
 
     public void remove(CustomArray customArray) throws CustomArrayException {
         customArrays.remove(customArray);
-        customArray.attachObserver(new CustomArrayObserverImpl());
+        customArray.attach(new CustomArrayObserverImpl());
         customArray.notifyObserver();
         logger.log(Level.INFO, "The array with id={} was removed from repository", customArray.getId());
     }
