@@ -1,6 +1,6 @@
 package by.pilipuk.inno.exception;
 
-public class CustomArrayException extends RuntimeException {
+public class CustomArrayException extends Exception {
 
     public CustomArrayException(String message) {
         super(message);

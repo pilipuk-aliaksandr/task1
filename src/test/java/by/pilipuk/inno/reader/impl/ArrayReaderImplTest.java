@@ -15,12 +15,12 @@ class ArrayReaderImplTest {
 
     @Test
     @DisplayName("Existing file is read and lines are returned")
-    void readArraysFromExistsFile() {
+    void readArraysFromExistsFile() throws CustomArrayException {
         // given
         String path = "file/input.txt";
 
         // when
-        List<String> actual = reader.readArraysFromFile(path);
+        List<String> actual = reader.readDataFromFile(path);
 
         // then
         assertEquals(List.of("1, 2, 3", "4 5 6"), actual);
@@ -35,7 +35,7 @@ class ArrayReaderImplTest {
         // when
 
         // then
-        assertThrows(CustomArrayException.class, () -> reader.readArraysFromFile(path));
+        assertThrows(CustomArrayException.class, () -> reader.readDataFromFile(path));
 
     }
 }

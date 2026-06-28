@@ -1,9 +1,8 @@
 package by.pilipuk.inno.parser;
 
-import by.pilipuk.inno.entity.base.BaseCustomArray;
-import java.util.List;
+import by.pilipuk.inno.exception.CustomArrayException;
 
 public interface CustomArrayParser {
 
-    List<BaseCustomArray> parseLines(List<String> lines);
+    int[] parseLine(String line) throws CustomArrayException;
 }

@@ -14,10 +14,10 @@ import java.util.List;
 
 public class ArrayReaderImpl implements ArrayReader {
 
-    private static final Logger logger = LogManager.getLogger(ArrayReaderImpl.class);
+    private static final Logger logger = LogManager.getLogger();
 
     @Override
-    public List<String> readArraysFromFile(String path) {
+    public List<String> readDataFromFile(String path) throws CustomArrayException {
         logger.log(Level.DEBUG, "Reading file: {}", path);
         URL resource = ArrayReaderImpl.class.getClassLoader().getResource(path);
         if (resource == null) {

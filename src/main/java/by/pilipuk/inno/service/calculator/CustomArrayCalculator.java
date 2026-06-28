@@ -1,15 +1,15 @@
 package by.pilipuk.inno.service.calculator;
 
-import by.pilipuk.inno.entity.base.BaseCustomArray;
+import by.pilipuk.inno.entity.CustomArray;
 import java.util.Optional;
 
-public interface CustomArrayCalculator<T extends Number, A extends BaseCustomArray> {
+public interface CustomArrayCalculator {
 
-    Optional<T> findMinValue(A array);
+    Optional<Integer> findMinValue(CustomArray array);
 
-    Optional<T> findMaxValue(A array);
+    Optional<Integer> findMaxValue(CustomArray array);
 
-    Optional<T> calculateSumOfElements(A array);
+    Optional<Integer> calculateSumOfElements(CustomArray array);
 
-    Optional<Double> calculateAverageOfElements(A array);
+    Optional<Double> calculateAverageOfElements(CustomArray array);
 }

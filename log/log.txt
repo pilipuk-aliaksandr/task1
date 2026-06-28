@@ -1,44 +1,83 @@
-00:03:04.985 [main] DEBUG by.pilipuk.inno.service.sorter.impl.DoubleArraySorterImpl - Custom array was sorted with selection sort!
-00:03:04.996 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with quick sort!
-00:03:04.999 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with quick sort!
-00:03:05.001 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with selection sort!
-00:03:05.004 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with selection sort!
-00:03:37.235 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The max value from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} is 3.0!
-00:03:37.271 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The max value from array CustomDoubleArray{arr=[]} didn't find, because this custom array is empty!
-00:03:37.275 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The sum of elements from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} is 2.0!
-00:03:37.278 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The sum of elements from array CustomDoubleArray{arr=[]} didn't find, because this custom array is empty!
-00:03:37.281 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The average value of elements from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} is 0.5!
-00:03:37.285 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The average value of elements from array CustomDoubleArray{arr=[]} didn't find, because this custom array is empty!
-00:03:37.288 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The min value from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} didn't find, because this custom array is empty!
-00:05:42.811 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1, 2, -3 is valid to be converted to CustomArray
-00:05:42.835 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1.0, 2.0, -3.0 is valid to be converted to CustomArray
-00:05:42.839 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1y1 2 3 ISN'T VALID to be converted to CustomArray
-00:05:42.841 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1 - 2 - -3 is valid to be converted to CustomArray
-00:05:42.844 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1, 2, -3 is valid to be converted to CustomArray
-00:05:42.847 [main] DEBUG by.pilipuk.inno.parser.impl.CustomArrayParserImpl - The line 1; 2; -3 is valid to be converted to CustomArray
-00:05:42.859 [main] DEBUG by.pilipuk.inno.reader.impl.ArrayReaderImpl - Reading file: file/input.txt
-00:05:42.863 [main] DEBUG by.pilipuk.inno.reader.impl.ArrayReaderImpl - Reading file: file/test_input.txt
-00:05:42.870 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The max value from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} is 3.0!
-00:05:42.873 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The max value from array CustomDoubleArray{arr=[]} didn't find, because this custom array is empty!
-00:05:42.875 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The sum of elements from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} is 2.0!
-00:05:42.878 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The sum of elements from array CustomDoubleArray{arr=[]} didn't find, because this custom array is empty!
-00:05:42.881 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The average value of elements from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} is 0.5!
-00:05:42.884 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The average value of elements from array CustomDoubleArray{arr=[]} didn't find, because this custom array is empty!
-00:05:42.888 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The min value from array CustomDoubleArray{arr=[1.0, 2.0, 3.0, -4.0]} is -4.0!
-00:05:42.891 [main] DEBUG by.pilipuk.inno.service.calculator.impl.DoubleArrayCalculatorImpl - The min value from array CustomDoubleArray{arr=[]} didn't find, because this custom array is empty!
-00:05:42.899 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The max value from array CustomIntArray{arr=[1, 2, 3, -4]} is 3!
-00:05:42.902 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The max value from array CustomIntArray{arr=[]} didn't find, because this custom array is empty!
-00:05:42.905 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The sum of elements from array CustomIntArray{arr=[1, 2, 3, -4]} is 2!
-00:05:42.907 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The sum of elements from array CustomIntArray{arr=[]} didn't find, because this custom array is empty!
-00:05:42.909 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The average value of elements from array CustomIntArray{arr=[1, 2, 3, -4]} is 0.5!
-00:05:42.912 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The average value of elements from array CustomIntArray{arr=[]} didn't find, because this custom array is empty!
-00:05:42.915 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The min value from array CustomIntArray{arr=[1, 2, 3, -4]} is -4!
-00:05:42.917 [main] DEBUG by.pilipuk.inno.service.calculator.impl.IntArrayCalculatorImpl - The min value from array CustomIntArray{arr=[]} didn't find, because this custom array is empty!
-00:05:42.934 [main] DEBUG by.pilipuk.inno.service.sorter.impl.DoubleArraySorterImpl - Custom array was sorted with quick sort!
-00:05:42.935 [main] DEBUG by.pilipuk.inno.service.sorter.impl.DoubleArraySorterImpl - Custom array was sorted with quick sort!
-00:05:42.937 [main] DEBUG by.pilipuk.inno.service.sorter.impl.DoubleArraySorterImpl - Custom array was sorted with selection sort!
-00:05:42.939 [main] DEBUG by.pilipuk.inno.service.sorter.impl.DoubleArraySorterImpl - Custom array was sorted with selection sort!
-00:05:42.943 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with quick sort!
-00:05:42.944 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with quick sort!
-00:05:42.945 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with selection sort!
-00:05:42.947 [main] DEBUG by.pilipuk.inno.service.sorter.impl.IntArraySorterImpl - Custom array was sorted with selection sort!
+11:58:48.364 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The min value from array CustomArray{id=15, arr=[1, 2, 3, -4]} is -4!
+11:58:48.367 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The min value from array CustomArray{id=16, arr=[]} didn't find, because this custom array is empty!
+11:58:48.370 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 1 and length: 4
+11:58:48.370 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 1 and length: 0
+11:58:48.371 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 1 and length: 4
+11:58:48.371 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The min value from array CustomArray{id=1, arr=[-4, 1, 2, 3]} is -4!
+11:58:48.371 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The max value from array CustomArray{id=1, arr=[-4, 1, 2, 3]} is 3!
+11:58:48.371 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The sum of elements from array CustomArray{id=1, arr=[-4, 1, 2, 3]} is 2!
+11:58:48.371 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The average value of elements from array CustomArray{id=1, arr=[-4, 1, 2, 3]} is 0.5!
+11:58:48.371 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully set for the array with id=1
+11:58:48.371 [main] DEBUG by.pilipuk.inno.observer.impl.CustomArrayObserverImpl - The statistics in the warehouse was set to custom array with id=1.
+11:58:48.372 [main] DEBUG by.pilipuk.inno.service.sorter.impl.CustomArraySorterImpl - Custom array was sorted with quick sort!
+11:58:48.374 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 1 and length: 4
+11:58:48.374 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 1 and length: 0
+11:58:48.374 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 1 and length: 0
+11:58:48.374 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The min value from array CustomArray{id=1, arr=[]} didn't find, because this custom array is empty!
+11:58:48.374 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The max value from array CustomArray{id=1, arr=[]} didn't find, because this custom array is empty!
+11:58:48.374 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The sum of elements from array CustomArray{id=1, arr=[]} didn't find, because this custom array is empty!
+11:58:48.374 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The average value of elements from array CustomArray{id=1, arr=[]} didn't find, because this custom array is empty!
+11:58:48.374 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully set for the array with id=1
+11:58:48.374 [main] DEBUG by.pilipuk.inno.observer.impl.CustomArrayObserverImpl - The statistics in the warehouse was set to custom array with id=1.
+11:58:48.374 [main] DEBUG by.pilipuk.inno.service.sorter.impl.CustomArraySorterImpl - Custom array was sorted with quick sort!
+11:58:48.376 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 1 and length: 4
+11:58:48.377 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 1 and length: 0
+11:58:48.377 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 1 and length: 4
+11:58:48.377 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The min value from array CustomArray{id=1, arr=[-4, 1, 2, 3]} is -4!
+11:58:48.377 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The max value from array CustomArray{id=1, arr=[-4, 1, 2, 3]} is 3!
+11:58:48.377 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The sum of elements from array CustomArray{id=1, arr=[-4, 1, 2, 3]} is 2!
+11:58:48.377 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The average value of elements from array CustomArray{id=1, arr=[-4, 1, 2, 3]} is 0.5!
+11:58:48.377 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully set for the array with id=1
+11:58:48.377 [main] DEBUG by.pilipuk.inno.observer.impl.CustomArrayObserverImpl - The statistics in the warehouse was set to custom array with id=1.
+11:58:48.377 [main] DEBUG by.pilipuk.inno.service.sorter.impl.CustomArraySorterImpl - Custom array was sorted with selection sort!
+11:58:48.379 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 1 and length: 4
+11:58:48.379 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 1 and length: 0
+11:58:48.379 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 1 and length: 0
+11:58:48.380 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The min value from array CustomArray{id=1, arr=[]} didn't find, because this custom array is empty!
+11:58:48.380 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The max value from array CustomArray{id=1, arr=[]} didn't find, because this custom array is empty!
+11:58:48.380 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The sum of elements from array CustomArray{id=1, arr=[]} didn't find, because this custom array is empty!
+11:58:48.380 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The average value of elements from array CustomArray{id=1, arr=[]} didn't find, because this custom array is empty!
+11:58:48.380 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully set for the array with id=1
+11:58:48.380 [main] DEBUG by.pilipuk.inno.observer.impl.CustomArrayObserverImpl - The statistics in the warehouse was set to custom array with id=1.
+11:58:48.380 [main] DEBUG by.pilipuk.inno.service.sorter.impl.CustomArraySorterImpl - Custom array was sorted with selection sort!
+11:58:48.384 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 2 and length: 3
+11:58:48.384 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 3 and length: 3
+11:58:48.384 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The min value from array CustomArray{id=2, arr=[1, 2, 3]} is 1!
+11:58:48.384 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The max value from array CustomArray{id=2, arr=[1, 2, 3]} is 3!
+11:58:48.384 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The sum of elements from array CustomArray{id=2, arr=[1, 2, 3]} is 6!
+11:58:48.384 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The average value of elements from array CustomArray{id=2, arr=[1, 2, 3]} is 2.0!
+11:58:48.384 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully set for the array with id=2
+11:58:48.384 [main] DEBUG by.pilipuk.inno.observer.impl.CustomArrayObserverImpl - The statistics in the warehouse was set to custom array with id=2.
+11:58:48.384 [main] INFO  by.pilipuk.inno.repository.CustomArrayRepository - The array with id=2 was added to repository
+11:58:48.384 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The min value from array CustomArray{id=3, arr=[4, 5, 6]} is 4!
+11:58:48.384 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The max value from array CustomArray{id=3, arr=[4, 5, 6]} is 6!
+11:58:48.384 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The sum of elements from array CustomArray{id=3, arr=[4, 5, 6]} is 15!
+11:58:48.384 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The average value of elements from array CustomArray{id=3, arr=[4, 5, 6]} is 5.0!
+11:58:48.385 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully set for the array with id=3
+11:58:48.385 [main] DEBUG by.pilipuk.inno.observer.impl.CustomArrayObserverImpl - The statistics in the warehouse was set to custom array with id=3.
+11:58:48.385 [main] INFO  by.pilipuk.inno.repository.CustomArrayRepository - The array with id=3 was added to repository
+11:58:48.390 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 4 and length: 3
+11:58:48.390 [main] INFO  by.pilipuk.inno.entity.CustomArray - Created CustomArray with id: 5 and length: 3
+11:58:48.390 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The min value from array CustomArray{id=4, arr=[1, 2, 3]} is 1!
+11:58:48.390 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The max value from array CustomArray{id=4, arr=[1, 2, 3]} is 3!
+11:58:48.390 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The sum of elements from array CustomArray{id=4, arr=[1, 2, 3]} is 6!
+11:58:48.390 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The average value of elements from array CustomArray{id=4, arr=[1, 2, 3]} is 2.0!
+11:58:48.390 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully set for the array with id=4
+11:58:48.391 [main] DEBUG by.pilipuk.inno.observer.impl.CustomArrayObserverImpl - The statistics in the warehouse was set to custom array with id=4.
+11:58:48.391 [main] INFO  by.pilipuk.inno.repository.CustomArrayRepository - The array with id=4 was added to repository
+11:58:48.391 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The min value from array CustomArray{id=5, arr=[4, 5, 6]} is 4!
+11:58:48.391 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The max value from array CustomArray{id=5, arr=[4, 5, 6]} is 6!
+11:58:48.391 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The sum of elements from array CustomArray{id=5, arr=[4, 5, 6]} is 15!
+11:58:48.391 [main] DEBUG by.pilipuk.inno.service.calculator.impl.CustomArrayCalculatorImpl - The average value of elements from array CustomArray{id=5, arr=[4, 5, 6]} is 5.0!
+11:58:48.391 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully set for the array with id=5
+11:58:48.391 [main] DEBUG by.pilipuk.inno.observer.impl.CustomArrayObserverImpl - The statistics in the warehouse was set to custom array with id=5.
+11:58:48.391 [main] INFO  by.pilipuk.inno.repository.CustomArrayRepository - The array with id=5 was added to repository
+11:58:48.406 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully removed from the array with id=100
+11:58:48.407 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully set for the array with id=100
+11:58:48.407 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully removed from the array with id=100
+11:58:48.410 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully removed from the array with id=100
+11:58:48.410 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully set for the array with id=100
+11:58:48.415 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully removed from the array with id=100
+11:58:48.415 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully set for the array with id=100
+11:58:48.415 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully set for the array with id=100
+11:58:48.416 [main] DEBUG by.pilipuk.inno.warehouse.Warehouse - Parameters was successfully removed from the array with id=100
